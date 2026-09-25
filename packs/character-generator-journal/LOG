@@ -1,8 +1,15 @@
-2024/11/10-06:16:04.485 5648 Recovering log #25
-2024/11/10-06:16:04.488 5648 Delete type=0 #25
-2024/11/10-06:16:04.488 5648 Delete type=3 #23
-2024/11/10-06:16:11.571 404c Level-0 table #31: started
-2024/11/10-06:16:11.571 404c Level-0 table #31: 0 bytes OK
-2024/11/10-06:16:11.573 404c Delete type=0 #29
-2024/11/10-06:16:11.574 404c Manual compaction at level-0 from '!journal!IvcW91NvS5BzuyWX' @ 72057594037927935 : 1 .. '!journal.pages!IvcW91NvS5BzuyWX.fg9mMrcy1pqZQYru' @ 0 : 0; will stop at (end)
-2024/11/10-06:16:11.574 404c Manual compaction at level-1 from '!journal!IvcW91NvS5BzuyWX' @ 72057594037927935 : 1 .. '!journal.pages!IvcW91NvS5BzuyWX.fg9mMrcy1pqZQYru' @ 0 : 0; will stop at (end)
+2026/09/25-13:50:30.477254 16f0eb000 Recovering log #33
+2026/09/25-13:50:30.479193 16f0eb000 Delete type=3 #32
+2026/09/25-13:50:30.479626 16f0eb000 Delete type=0 #33
+2026/09/25-13:50:30.496900 16f983000 Level-0 table #37: started
+2026/09/25-13:50:30.499082 16f983000 Level-0 table #37: 5655 bytes OK
+2026/09/25-13:50:30.499263 16f983000 Delete type=0 #35
+2026/09/25-13:50:30.499557 16f983000 Manual compaction at level-0 from '!journal!IvcW91NvS5BzuyWX' @ 72057594037927935 : 1 .. '!journal.pages!IvcW91NvS5BzuyWX.fg9mMrcy1pqZQYru' @ 0 : 0; will stop at (end)
+2026/09/25-13:50:30.499574 16f983000 Manual compaction at level-1 from '!journal!IvcW91NvS5BzuyWX' @ 72057594037927935 : 1 .. '!journal.pages!IvcW91NvS5BzuyWX.fg9mMrcy1pqZQYru' @ 0 : 0; will stop at '!journal.pages!IvcW91NvS5BzuyWX.fg9mMrcy1pqZQYru' @ 51 : 1
+2026/09/25-13:50:30.499577 16f983000 Compacting 1@1 + 1@2 files
+2026/09/25-13:50:30.501001 16f983000 Generated table #38@1: 3 keys, 5655 bytes
+2026/09/25-13:50:30.501010 16f983000 Compacted 1@1 + 1@2 files => 5655 bytes
+2026/09/25-13:50:30.501067 16f983000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/25-13:50:30.501145 16f983000 Delete type=2 #37
+2026/09/25-13:50:30.501458 16f983000 Delete type=2 #27
+2026/09/25-13:50:30.502068 16f983000 Manual compaction at level-1 from '!journal.pages!IvcW91NvS5BzuyWX.fg9mMrcy1pqZQYru' @ 51 : 1 .. '!journal.pages!IvcW91NvS5BzuyWX.fg9mMrcy1pqZQYru' @ 0 : 0; will stop at (end)
