@@ -1,3 +1,15 @@
-2026/09/25-13:50:30.365145 170f6b000 Recovering log #31
-2026/09/25-13:50:30.366480 170f6b000 Delete type=3 #30
-2026/09/25-13:50:30.366665 170f6b000 Delete type=0 #31
+2026/09/25-13:55:40.276484 170f47000 Recovering log #33
+2026/09/25-13:55:40.278154 170f47000 Delete type=3 #32
+2026/09/25-13:55:40.278812 170f47000 Delete type=0 #33
+2026/09/25-13:55:40.319991 1717df000 Level-0 table #37: started
+2026/09/25-13:55:40.320993 1717df000 Level-0 table #37: 10979 bytes OK
+2026/09/25-13:55:40.321158 1717df000 Delete type=0 #35
+2026/09/25-13:55:40.321396 1717df000 Manual compaction at level-0 from '!tables!rWcCriminalSkils' @ 72057594037927935 : 1 .. '!tables.results!rWcRobotSkillset.rwcRrWcRobot0012' @ 0 : 0; will stop at (end)
+2026/09/25-13:55:40.321415 1717df000 Manual compaction at level-1 from '!tables!rWcCriminalSkils' @ 72057594037927935 : 1 .. '!tables.results!rWcRobotSkillset.rwcRrWcRobot0012' @ 0 : 0; will stop at '!tables.results!rWcRobotSkillset.rwcRrWcRobot0012' @ 187 : 1
+2026/09/25-13:55:40.321423 1717df000 Compacting 1@1 + 1@2 files
+2026/09/25-13:55:40.322346 1717df000 Generated table #38@1: 90 keys, 8250 bytes
+2026/09/25-13:55:40.322351 1717df000 Compacted 1@1 + 1@2 files => 8250 bytes
+2026/09/25-13:55:40.322410 1717df000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/25-13:55:40.322525 1717df000 Delete type=2 #5
+2026/09/25-13:55:40.322787 1717df000 Delete type=2 #37
+2026/09/25-13:55:40.322970 1717df000 Manual compaction at level-1 from '!tables.results!rWcRobotSkillset.rwcRrWcRobot0012' @ 187 : 1 .. '!tables.results!rWcRobotSkillset.rwcRrWcRobot0012' @ 0 : 0; will stop at (end)
